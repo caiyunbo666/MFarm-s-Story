@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82b8af1747b051f488f6470a415100c8, type: 3}
+  m_Name: StallGirl Schedule
+  m_EditorClassIdentifier: 
+  scheduleList:
+  - hour: 8
+    minute: 0
+    day: 0
+    priority: 0
+    season: 0
+    targetScene: 01.Field
+    targetGridPosition: {x: -8, y: -2}
+    clipAtStop: {fileID: 7400000, guid: ae84eb744c80948f797fa59172f33444, type: 2}
+    interactable: 1
